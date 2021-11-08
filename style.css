@@ -351,13 +351,14 @@ ul li a:hover {
     border-style: solid ;
     border-color:#E7FFBF;
     background-image: linear-gradient(to bottom right,rgba(0, 156, 102, 0.534),rgba(0, 0, 0, 0.664));
-    overflow: hidden;
+    
 }
 .proimg{
     border-radius: 20px;
     border-style: solid ;
     border-color:#a7eb70;
     margin-bottom:4%;
+    
     
     
    
