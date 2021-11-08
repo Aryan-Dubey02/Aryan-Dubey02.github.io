@@ -19,7 +19,8 @@ header{
  
     display:flex;
     justify-content:space-evenly;
-    align-items:center
+    align-items:center;
+    margin-bottom:none;
 }
 ::-webkit-scrollbar {
     width: 10px;
@@ -113,7 +114,7 @@ ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     text-align: left;
-    margin-top: 350px;
+    margin-top: 10%;
     margin-left:17%;
     flex-direction: column;
   }
@@ -144,7 +145,7 @@ ul li a:hover {
   .hackerImage {
       pointer-events: none;
       margin: auto;
-      margin-top: 130px;
+      margin-top:5%%;
     float: right;
     width: 40%;
     height: 40%;
@@ -182,6 +183,7 @@ ul li a:hover {
     background-color: #7bff00;
     color: rgba(0, 0, 0, 0.678);
   }
+  
 .aboutme {
     width: 90%;
     margin: auto    ;
@@ -209,6 +211,7 @@ ul li a:hover {
     justify-content: center;
     align-items: center;
     flex: 1 .1 40rem
+    margin-top:3%;
 }
 .img img{
     width: 60%;
@@ -386,7 +389,14 @@ ul li a:hover {
   #contact{
       margin: auto ;
       height:100%;
-      margin-bottom:10%;
+    
+      background: url("../assets/scene.png");
+      background-position:center;
+      background-size:cover;
+      background-repeat: no-repeat;
+      padding-bottom: 10%;
+      
+  
     
   }
   .input form {
@@ -401,6 +411,7 @@ ul li a:hover {
     justify-content: space-evenly;
     flex-wrap: wrap;
     flex-direction: row;
+    ;    
   }
   
   .contact-form {
@@ -408,6 +419,8 @@ ul li a:hover {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: 50%;
+    margin-right:4%;
    
     flex:1 1 40rem ;
   }
@@ -463,6 +476,7 @@ ul li a:hover {
       display:flex;
       flex-direction: column;
       border-left: #73ff00;
+      
       border-left-style: solid;
       padding-left: 25%;
       padding-top: 0px;
@@ -492,7 +506,7 @@ ul li a:hover {
     color: rgb(255, 255, 255);
     padding: 30px 0;
     text-align: center;
-    margin-top: 3%;
+    margin-top:none;
   }
   
   .copyright {
