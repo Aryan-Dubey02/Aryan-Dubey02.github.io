@@ -187,7 +187,7 @@ ul li a:hover {
 .aboutme {
     width: 90%;
     margin: auto    ;
-    margin-top:105px;
+    margin-top:15%;
     padding-top: 45px;
     display: inline-flex;
     flex-direction: row;
@@ -598,7 +598,11 @@ ul li a:hover {
       align-content:center ;
 
     }
+    #home{
+      margin-top: 7%;
+    }
     .heroComp{
+      
       width: 80%;
       border-style: solid;
       border-radius: 20px ;
@@ -645,7 +649,16 @@ ul li a:hover {
       margin-bottom: 20px;
     }
     #home .buttons {
-      width: 70%;
+      width: 90%;
+      margin-bottom: 10%;
+      ;
+      
+    }
+    .buttons a {height:fit-content;
+      
+      
+  
+      
       
     }
     #projects{
