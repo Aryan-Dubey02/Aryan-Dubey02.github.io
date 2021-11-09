@@ -30,6 +30,26 @@ header{
   ::-webkit-scrollbar-thumb {
     background-color: #00ff0dde;
   }
+  .menu-toggler {
+    background: none;
+    width: 30px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    z-index: 999;
+    display: none;
+  }
+  
+  .menu-toggler span {
+    display: block;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    position: relative;
+    transition: 0.3s linear;
+  }
+  
   
 .navmenu li {
     display: inline-block;
@@ -391,7 +411,7 @@ ul li a:hover {
       height:100%;
     
       background: url("../assets/scene.png");
-      background-position:center;
+      background-position:bottom;
       background-size:cover;
       background-repeat: no-repeat;
       padding-bottom: 10%;
@@ -519,7 +539,7 @@ ul li a:hover {
     color: #48dbfb;
     font-weight: 500;
   }
-  @media only screen and (max-width:900px) {
+  @media only screen and (max-width:900px){
     .hackerImage{ display: none ;}
     .img{ display: none;}
     .bouttext {margin: auto ;
@@ -559,7 +579,49 @@ ul li a:hover {
     }
     .card-text h1{
       font-size:1.8em;}
+      .hackerImage{ display: none ;}
+      .img{ display: none;}
+      .bouttext {margin: auto ;
+      margin-left: 10%;}
+      .bouttext h1 {
+        font-size:2.4em;
+      
     
+      }
+      .bouttext p {
+        font-size:1.5em;
+      }
+      .navbar ul {
+        display: none;
+      }
+      .contact{
+        flex-direction: column;
+        margin: auto;
+      }
+      .contact-info {
+      
+        border-style: none;
+        background-color: rgba(127, 255, 212, 0.192);
+        margin: auto;
+        width: 90%;
+        margin-top: 4%;
+        border-radius: 20px;
+        
+      }
+      .contact-form {
+        margin: auto;
+        padding: auto;
+  
+        width:90%;
+        align-content:center ;
+  
+      }
+      .card-text h1{
+        font-size:1.8em;}
+      
+        
+  }
+  
     
     
 
