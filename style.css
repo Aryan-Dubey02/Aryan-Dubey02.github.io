@@ -411,6 +411,7 @@ ul li a:hover {
     justify-content: space-evenly;
     flex-wrap: wrap;
     flex-direction: row;
+    
     ;    
   }
   
@@ -419,7 +420,7 @@ ul li a:hover {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 50%;
+    margin-left: 20%;
     margin-right:4%;
    
     flex:1 1 40rem ;
@@ -451,8 +452,7 @@ ul li a:hover {
     width: 300px;
     border: 2px solid #00ff4c;
     padding: 5px;
-    margin-top: 20px;
-    margin-left: auto;
+ 
     cursor: pointer;
     background-color: #48ff00;
     border-radius: 8px;
@@ -519,4 +519,143 @@ ul li a:hover {
     color: #48dbfb;
     font-weight: 500;
   }
+  @media only screen and (max-width:900px) {
+    .hackerImage{ display: none ;}
+    .img{ display: none;}
+    .bouttext {margin: auto ;
+    margin-left: 10%;}
+    .bouttext h1 {
+      font-size:2.4em;
+    
   
+    }
+    .bouttext p {
+      font-size:1.5em;
+    }
+    .navbar ul {
+      display: none;
+    }
+    .contact{
+      flex-direction: column;
+      margin: auto;
+    }
+    .contact-info {
+    
+      border-style: none;
+      background-color: rgba(127, 255, 212, 0.192);
+      margin: auto;
+      width: 90%;
+      margin-top: 4%;
+      border-radius: 20px;
+      
+    }
+    .contact-form {
+      margin: auto;
+      padding: auto;
+
+      width:90%;
+      align-content:center ;
+
+    }
+    
+
+  }
+  @media only screen and (max-width:500px) {
+    .hackerImage{ display: none ;}
+    .img{ display: none;}
+    .bouttext {margin: auto ;
+    margin-left: 10%;}
+    .bouttext h1 {
+      font-size:2.4em;
+    
+  
+    }
+    .bouttext p {
+      font-size:1.5em;
+    }
+    .navbar ul {
+      display: none;
+    }
+    .contact{
+      flex-direction: column;
+      margin: auto;
+    }
+    .contact-info {
+    
+      border-style: none;
+      background-color: rgba(127, 255, 212, 0.192);
+      margin: auto;
+      width: 90%;
+      margin-top: 4%;
+      border-radius: 20px;
+      
+    }
+    .contact-form {
+      margin: auto;
+      padding: auto;
+
+      width:90%;
+      align-content:center ;
+
+    }
+    .heroComp{
+      width: 80%;
+      border-style: solid;
+      border-radius: 20px ;
+      border-color: rgba(0, 255, 98, 0.521);
+      margin: auto ;
+      padding-left: 2%;
+      
+    }
+    .head-title {
+      font-family: "Poppins", sans-serif;
+      font-size: 25px;
+      font-weight: 600;
+      line-height:1em;
+      padding-top: 1em;
+      color:#E7FFBF;
+    }.head-subtitle {
+      font-family: "Poppins", sans-serif;
+      font-size: 50px;
+      color: #D2FF50;
+      line-height:1.5em;
+      
+      font-weight: 600;
+    }
+    .services{
+      flex-direction: column;
+    }
+    .card-text h1 {
+      font-size:1.4em;
+      text-align: center;
+
+    }
+    .card-text p {
+      font-size:1em;
+
+    }
+    .card-icon img {
+      scale: 50%;
+      
+    }
+    .card{
+      width:70%;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-bottom: 20px;
+    }
+    #home .buttons {
+      width: 70%;
+      
+    }
+    #projects{
+      display: none;
+    }
+
+
+
+  }
+
+  
+  
+
