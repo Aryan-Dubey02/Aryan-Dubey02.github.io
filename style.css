@@ -605,8 +605,10 @@ ul li a:hover {
       
       width: 80%;
       border-style: solid;
-      border-radius: 20px ;
+      border-radius: 20px 7px;
+      border-width: 4px;
       border-color: rgba(0, 255, 98, 0.521);
+      background-image: linear-gradient(to bottom right,rgba(0, 255, 200, 0.349),rgba(1, 110, 110, 0.288),rgba(95, 255, 2, 0));
       margin: auto ;
       padding-left: 2%;
       
